@@ -108,7 +108,7 @@ its status to online and start playing some good ol' Team Fortress 2.
 client.on('loggedOn', () => {
   console.log('Logged into Steam');
 
-  client.setPersona(SteamUser.Steam.EPersonaState.Online);
+  client.setPersona(SteamUser.EPersonaState.Online);
   client.gamesPlayed(440);
 });
 ```
